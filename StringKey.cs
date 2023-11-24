@@ -8,5 +8,6 @@ namespace HashMap
 {
     internal class StringKey
     {
+
     }
 }

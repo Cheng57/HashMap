@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashMap", "HashMap.csproj", "{5BE7A409-DD19-4040-8045-788BABAD7EB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE7A409-DD19-4040-8045-788BABAD7EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE7A409-DD19-4040-8045-788BABAD7EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE7A409-DD19-4040-8045-788BABAD7EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE7A409-DD19-4040-8045-788BABAD7EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCD090D4-C2BA-4867-B757-056B63E507D9}
+	EndGlobalSection
+EndGlobal
