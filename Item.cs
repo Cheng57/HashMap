@@ -9,6 +9,7 @@ namespace HashMap
     /// <summary>
     /// Represents an item.
     /// </summary>
+    /// The IComparable</Item> interface is implemented to provide a CompareTo method for comparing items based on their names.
     internal class Item : IComparable<Item>
     {
         /// <summary>
@@ -60,10 +61,15 @@ namespace HashMap
                 return false;
             }
 
+            // Casts the obj object to the Item type.
             Item otherItem = (Item)obj;
 
             return Name == otherItem.Name &&
                    GoldPieces == otherItem.GoldPieces &&
+                   
+                   // Using Equals is a good way to compare the weight property, especially when dealing with floating-point numbers
+                   // Equals method is more appropriate for comparing floating-point numbers because it considers a certain degree of tolerance
+                   // for differences that can arise due to precision issues.
                    Weight.Equals(otherItem.Weight);
         }
 
