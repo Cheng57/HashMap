@@ -75,14 +75,14 @@ namespace HashMap
 
         /// <summary>
         /// Compares the instance item with the specified item based on the Name property. Returns 0 if the items have the same name; 
-        /// Returns a positive number if the specified item with a name that comes aphabetically before the instance item.
-        /// Returns a negative number if the specified item with a name that comes aphabetically after the instance item.
+        /// Returns a positive number if the specified item with a name that comes alphabetically before the instance item.
+        /// Returns a negative number if the specified item with a name that comes alphabetically after the instance item.
         /// Returns 1 if the specified item is null.
         /// </summary>
         /// <param name="other">The specified item.</param>
         /// <returns>Returns 0 if the items have the same name; 
-        /// Returns a positive number if the specified item with a name that comes aphabetically before the instance item;
-        /// Returns a negative number if the specified item with a name that comes aphabetically after the instance item;
+        /// Returns a positive number if the specified item with a name that comes alphabetically before the instance item;
+        /// Returns a negative number if the specified item with a name that comes alphabetically after the instance item;
         /// Returns 1 if the specified item is null.</returns>
         public int CompareTo(Item? other)
         {
