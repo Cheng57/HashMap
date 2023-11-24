@@ -1,10 +1,11 @@
 //using A4;
 using NUnit.Framework;
 using System;
+using HashMap;
 
 namespace StringKeyTest
 {
-/*    [TestFixture]
+    [TestFixture]
     public class StringKeyTest
     {
         /// <summary>
@@ -69,7 +70,7 @@ namespace StringKeyTest
 
             Assert.IsTrue(stringKey1.CompareTo(stringKey2) < 0);
         }
-        
+
 
         /// <summary>
         /// Test that the GetHashCode method returns differnt values for words with 
@@ -174,7 +175,7 @@ namespace StringKeyTest
 
             Assert.IsFalse(objStrKey1.Equals(objStrKey2));
         }
-        
+
         /// <summary>
         /// Test GetHashCode to ensure it returns expected result.
         /// </summary>
@@ -204,5 +205,5 @@ namespace StringKeyTest
             Assert.AreEqual(expectedString, objStrKey1.ToString());
         }
 
-    }*/
+    }
 }
